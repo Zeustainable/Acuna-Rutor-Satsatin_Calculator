@@ -1,0 +1,86 @@
+
+/* Universal Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+/* Body */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+/* Main Div Class */
+.mainForm {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 50px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+/* Design of the whole Calculator */
+input {
+    width: 350px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 75px;
+}
+
+/* Position of Textfield */
+.textField {
+    margin-top: 32px;
+    margin-bottom: -25px;
+}
+
+/* Font Color of the Textfield */
+input::placeholder {
+    color: #ffffff;
+}
+
+/* Buttons for AC, +/-, % */
+.top {
+    font-size: 32px;
+    background: #a9a9a9;
+    color: #000000;
+}
+
+/* Buttons for /, x, -, +, = */
+.operator {
+    background: #ff9913;
+}
+
+/* Buttons for zero only */
+.zero {
+    width: 175px;
+    border-radius: 60px;
+}
+
+/* Design of every Buttons in Calculator */
+button {
+    width: 80px;
+    height: 80px;
+    margin: 7px 5px;
+    border: none;
+    border-radius: 100px;
+    background: #444444;
+    color: #ffffff;
+    font-size: 40px;
+    cursor: pointer;
+}
